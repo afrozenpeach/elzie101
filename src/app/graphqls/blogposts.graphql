@@ -1,0 +1,13 @@
+query posts {
+  blogposts {
+    id
+    headerPhoto {
+      id
+      url
+    }
+    title
+    slug
+    postDate
+    featured
+  }
+}

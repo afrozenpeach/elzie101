@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "elzie101"
+  "defaultProject": "elzie101",
+  "cli": {
+    "analytics": "3d4b7ef4-eacb-4ce2-b4b3-68086664e2fa"
+  }
 }

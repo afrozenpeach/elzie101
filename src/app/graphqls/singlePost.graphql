@@ -1,0 +1,14 @@
+query singlePost($whereClause: JSON!) {
+  blogposts(where: $whereClause, limit: 1) {
+    id
+    headerPhoto {
+      id
+      name
+    }
+    postDate
+    content
+    title
+    featured
+    slug
+  }
+}
